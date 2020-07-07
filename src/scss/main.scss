@@ -3,6 +3,10 @@
 @import "_variables";
 @import "modules/hello.scss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: $wtf;
   color: #fff;
@@ -10,8 +14,4 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-}
-
-h1 {
-  color: red;
 }
