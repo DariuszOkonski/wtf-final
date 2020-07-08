@@ -12,7 +12,11 @@
         line-height: 40px;
         text-decoration: none;
     }
-    
+
+    &__description {
+        text-align: center;
+    }
+
     &__paragraph {
         font-weight: 300;
         font-size: 16px;
