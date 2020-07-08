@@ -23,4 +23,8 @@ html {
 body {
   font-family: 'Nunito', sans-serif;
   color: $text;
+
+  main {
+    overflow: hidden;
+  }
 }
