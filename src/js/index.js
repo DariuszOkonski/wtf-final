@@ -1,5 +1,6 @@
 import '../scss/main.scss';
 
+console.log("Hi, I am Dariusz - Nice to meet you 👍");
 
 fetch('https://api.github.com/users/DariuszOkonski/repos?sort=created&direction=asc')
 .then(res => {
@@ -31,15 +32,15 @@ fetch('https://api.github.com/users/DariuszOkonski/repos?sort=created&direction=
                 </p>
                 <p class="project__grid">
                     <span class="project__label">demo:</span>
-                    <span>&lt;<a class="project__link" href="${homepage}" title="podlaski git - demo">see_here</a>&gt;</span>
+                    <span>&lt;<a class="project__link" href="${homepage}" rel="noopener noreferrer" target="_blank" title="${name} - demo">see_here</a>&gt;</span>
                 </p>
                 <p class="project__grid">
                     <span class="project__label">github:</span>
-                    <span>&lt;<a class="project__link" href="${html_url}" title="podlaski git - code">source_code</a>&gt;</span>
+                    <span>&lt;<a class="project__link" href="${html_url}" rel="noopener noreferrer" target="_blank" title="${name} - code">source_code</a>&gt;</span>
                 </p>
                 </div>
-            </article>
-            `;
+            </article>`;
+            
             if(description) {
                 container.innerHTML += singleProject;
             }
