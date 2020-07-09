@@ -1,4 +1,4 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](https://github.com/DariuszOkonski/wtf-final/public/icons/cover.png);
 
 # WTF Webpack Starter Kit 
 
